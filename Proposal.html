@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proposal</title>
+  <style>
+    *,body{
+      margin: 0;
+    }
+
+    .container{
+      display: flex;
+      flex-direction: column;
+      width: 80%;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+    }
+
+    header {
+      background: #dadada;
+      margin: 1% auto;
+      height: 20vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    header h1{
+      margin: auto;
+      /* transform: translate(50%,50%); */
+    }
+
+    .midsection {
+      height: 50vh;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .midbox {
+      background: #dadada;
+      max-width: 49%;
+      margin: 1% 0;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+
+    footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      background: #dadada;
+      height: 20vh;
+      width: 100%;
+      margin: 1% 0;
+      /* flex-wrap: wrap; */
+    }
+
+    .footerbox {
+      background: #bbbbbb;
+      /* margin: 1%; */
+      flex: 1;
+      padding: 5px;
+      box-sizing: border-box;
+      min-width: 200px;
+      max-width: 32%;
+      height: 92%;
+    }
+
+    /* .footerbox:first-child {
+      margin-left: 2%;
+    }
+    .footerbox:last-child {
+      margin-right: 2%;
+    } */
+
+    @media screen and (max-width: 1024px) {
+    }
+
+    @media screen and (max-width: 768px) {
+    }
+
+    @media screen and (max-width: 480px) {
+      footer {
+        flex-direction: column;
+        min-height: 50vh;
+        width: 100%;
+      }
+      .footerbox{
+        max-width: 100%;
+        /* height: 200px; */
+        margin: 1%;
+        width: 95%;
+
+      }
+      .midsection{
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 100%;
+
+      }
+      .midbox {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>Title</h1>
+    </header>
+    <div class="midsection">
+      <div class="midbox">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet quam odit consequuntur molestias, perferendis
+          dignissimos, accusantium tenetur magni mollitia libero dolores corporis modi repellendus! Cumque beatae laboriosam
+          aut sequi laudantium!
+        </p>
+      </div>
+      <div class="midbox">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, cumque at voluptates iste deleniti libero,
+          tempore non laboriosam voluptate maxime dolore veritatis sapiente rem recusandae, distinctio voluptas nesciunt
+          minus nemo.
+        </p>
+      </div>
+    </div>
+    <footer>
+      <div class="footerbox">qwe</div>
+      <div class="footerbox">asd</div>
+      <div class="footerbox">zxc</div>
+    </footer>
+  </div>
+</body>
+
+</html> 
