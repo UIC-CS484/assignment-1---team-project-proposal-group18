@@ -26,14 +26,15 @@
     /* transform: translate(50%,50%); */
   }
 
-  /* .headerPage{
+ #headerPage{
       font-size: 2vw;
-  } */
+  } 
 
   .midsection {
     height: 50vh;
     display: flex;
     justify-content: space-between;
+    font-size: 1.2vw;
   }
 
   .midbox {
@@ -43,6 +44,7 @@
     margin: 1% 0;
     padding: 10px;
     box-sizing: border-box;
+    overflow-y: auto;
   }
 
   footer {
@@ -62,10 +64,12 @@
     flex: 1;
     padding: 5px;
     box-sizing: border-box;
-    min-width: 200px;
+    /* min-width: 200px; */
     max-width: 32%;
-    min-width: 30%;
+    /* min-width: 30%; */
     height: 92%;
+    overflow-y : auto;
+    font-size: 1.2vw;
   }
 
   .sliderContainer{
