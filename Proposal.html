@@ -7,19 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Proposal</title>
   <link rel="stylesheet" href="CSS/Proposal.css">
+  <script src="JS/proposalJS.js"></script>
 </head>
 
 <body>
   <div class="container">
     <header>
-      <h1></h1>
+      <h1 id="headerPage">FinX - A social platform for financial investments</h1>
     </header>
     <div class="midsection">
       <div class="midbox">
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet quam odit consequuntur molestias, perferendis
-          dignissimos, accusantium tenetur magni mollitia libero dolores corporis modi repellendus! Cumque beatae laboriosam
-          aut sequi laudantium!
+          Lorem 
         </p>
       </div>
       <div class="midbox">
@@ -30,10 +29,27 @@
         </p>
       </div>
     </div>
-    <footer>
+    <footer class="footerBar">
       <div class="footerbox">qwe</div>
       <div class="footerbox">asd</div>
-      <div class="footerbox">zxc</div>
+      <div class="footerbox">
+        <div class="sliderView">
+            <div>
+                Use the slider to change the Font Size
+            </div>
+            <div style="min-height: 20%;">
+            </div>
+            <div class="sliderContainer">
+              <input id="sliderInput" type="range" min="1" max="30" value="15" oninput="changeFont()">
+            </div>
+            <div style="min-height: 20%;">
+            </div>
+            <div id="outputFont">
+              Font Size - 15
+            </div>
+        </div>
+        
+      </div>
     </footer>
   </div>
 </body>
