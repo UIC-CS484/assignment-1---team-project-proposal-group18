@@ -1,6 +1,6 @@
 # assignment-1---team-project-proposal-group18
 
-<<<<<<< HEAD
+
 ## CrytoBase 
 
 CryptoBase is a web application intented to be used by users looking for investments in crytocurrencies. The idea is to get users create a pool of favourite cryptocurrencies and get updates in the form of news articles. The function that sets us apart is that , the users will be able to share there thoughts on the news and position taken by cryptocurrencies in the exchange market. This is 
@@ -18,4 +18,4 @@ CryptoBase is a web application intented to be used by users looking for investm
 ## Workflow strategy 
 
 we will create branches for each feature that we implement in our project 
->>>>>>> d9d55c1633b4555bd0b84bbf9f4ed73c434050f7
+
