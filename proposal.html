@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proposal</title>
+  <link rel="stylesheet" href="./CSS/proposal.css">
+  <script src="./JS/proposalJS.js"></script>
+</head>
+
+<!-- <body onresize="checkScreenSize()"> -->
+<body>
+  <div class="container">
+    <header>
+      <h1 id="headerPage">CrpytoBase - A social platform for cryptocurrency investments</h1>
+    </header>
+    <div class="midsection">
+      <div class="midbox">
+        <ul>
+          <li>
+            <p>
+              RESTFul API's: Mediastack for crypto news, Coingecko for cryptocurrency data
+            </p>
+          </li>
+          <br>
+          <li>
+            <p>
+              The data provided by Mediastack will give the users news of their favorite cryptocurrency and Coingecko will provide information about the cryptocurrencies like - price, market-cap, volume etc.
+            </p>
+          </li>
+          <br>
+          <li>
+            <b>Data collected from authenticated users: </b>
+            <p>Authenticated users will choose their prospective cryptocurrencies and be able to like news/blogs which will be stored in our SQLite databse.</p>
+          </li>
+          <br>
+          <li>
+              <b>User Data Table: <br></b> firstName, lastName, password(encrypted), dob, email, userID
+              <br>
+              <b>Favourite Cryptos Table: <br></b> cryptoID, cryptoTicker, cryptoName
+              <br>
+              <b>News Items: <br></b> newsID, userID, NewsURL, cryptoTicker, numLikes
+              <br>
+              <b>Comments Table: <br></b> commentID, userID, newsID, comment
+          </li>
+        </ul>
+      </div>
+      <div class="midbox">
+        <ul>
+          <li>
+            <b>Target Users: </b><p>This website will be useful for crypto traders to get the trending news about cryptocurrencies and make informed decisions before putting their money in the market.</p>
+          </li>
+          <br>
+          <li>
+            <b>Goals: </b>
+            <ol>
+              <li>To give users personalised news about their favorite cryptocurrency.</li>
+              <li>To give users the ability to perform fundamental analysis on the cryptocurrency to get better understanding.</li>
+            </ol>
+          </li>
+          <br>
+          <li>
+            <b>Why we selected this topic: </b>
+            <p>We selected this topic to create awareness about cryptocurrency as people loose a lot of money because of the high volatility in the crypto market as well as because of our interest in learning more about it.</p>
+          </li>
+        </ul>
+        </div>
+      </div>
+    <footer>
+      <div class="footerbox" id="footerbox1">
+        <ul>
+          <li>
+            <b>Links to API's:</b> <br>
+            <a href="https://mediastack.com/documentation">Mediastack</a>,
+            <a href="https://www.coingecko.com/en/api/documentation">CoinGecko</a>
+          </li>
+          <br>
+          <li>
+            <b>Model site:</b><br>
+            <a href="https://www.bing.com/news">Microsoft Bing News</a>
+          </li><br>
+          <li>
+            <b>Helpful Resources: </b>
+            <ol>
+              <li>  
+                <a href="https://reactjs.org/docs/getting-started.html">React (Frontend Development)</a>,<br>
+              </li>
+              <li>
+                <a href="https://www.postman.com/">Postman (API Testing) </a>,<br>
+              </li>
+              <li>  
+                <a href="https://www.sqlitetutorial.net/sqlite-nodejs/">SQLite Tutorials (Integrating nodejs with SQLite)</a>
+              </li>
+            </ol>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footerbox" id="footerbox2">
+      <ul>
+        <li>Will SQLite be able to perform the same way when the number of users increase?</li>
+        <li>Where will the application be hosted such that the frontend and backend interact securely?</li>
+      </ul>
+      </div>
+      <div class="footerbox" id="footerbox3">
+        <div class="sliderView">
+            <div>
+                Use the slider to change the Font Size
+            </div>
+            <div style="min-height: 20%;">
+            </div>
+            <div class="sliderContainer">
+              <input id="sliderInput" type="range" min="1" max="100" value="50" oninput="changeFont()">
+            </div>
+            <div style="min-height: 20%;">
+            </div>
+            <div id="outputFont">
+              Font Size:  50
+            </div>
+        </div>
+        
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html> 
